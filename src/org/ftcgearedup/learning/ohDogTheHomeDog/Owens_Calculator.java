@@ -2,7 +2,7 @@ package org.ftcgearedup.learning.ohDogTheHomeDog;
 
 import java.util.Scanner;
 
-public class Owens_Calculator {
+public class Owens_Calclator {
 
     public static void main(String[] args) {
 
@@ -11,7 +11,7 @@ public class Owens_Calculator {
 
         Scanner reader = new Scanner(System.in);  // Reading from System.in
         System.out.println("Enter a number: ");
-        int n = reader.nextInt(); // Scans the next token of the input as an int.
+        int n = reader.nextInt(); // Scans the next ten of the input as an int.
 
         Scanner reader2 = new Scanner(System.in);
         System.out.println("Enter a second number: "); //Reads for second number
@@ -21,7 +21,7 @@ public class Owens_Calculator {
         System.out.println("Enter a function (1 == addition and 2 == subtraction): "); //Reads for function type
         int o = reader3.nextInt();
 
-        System.out.println("Doing the Math...");
+        System.out.println("Dog the Math...");
 
         if (o == 1) { //Computes according to function
             answer = n + m;
