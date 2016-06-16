@@ -8,15 +8,15 @@ import java.util.Scanner;
 public class Lock {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
-        system.out.print ("Enter Password Here: ");
-        string x = reader.nextString();
-        if(x = "6347") {
-            system.out.println("Access granted, Master!");
+        System.out.print ("Enter Password Here: ");
+        String x = reader.nextLine();
+        if(x.equals("6347")) {
+            System.out.println("Access granted, Master!");
 
         }
-        else() {
+        else {
             for (int i = 1; i<21; i++){
-                system.out.println("NO!");
+                System.out.println("NO!");
             }
 
 
