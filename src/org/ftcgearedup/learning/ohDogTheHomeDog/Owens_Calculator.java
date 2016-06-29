@@ -2,7 +2,7 @@ package org.ftcgearedup.learning.ohDogTheHomeDog;
 
 import java.util.Scanner;
 
-public class Owens_Calclator {
+public class Owens_Calculator {
 
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////
